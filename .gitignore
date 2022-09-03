@@ -1,5 +1,5 @@
 # デフォルトの無視ファイル
 /shelf/
-/.idea/workspace.xml
+/.idea/
 .DS_Store
 /build/
