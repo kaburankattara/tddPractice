@@ -4,3 +4,6 @@
 ・Dollarの副作用をどうする？
 ・Moneyの丸め処理をどうする？
 ・Dollarクラスがない
+・Dollarクラスにコンストラクタがない
+・Dollarクラスにtimeメソッドが無い
+・Dollarクラスにamountフィールドが無い
