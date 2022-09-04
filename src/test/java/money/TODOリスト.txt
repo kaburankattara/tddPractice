@@ -3,6 +3,8 @@
 ・amountをprivateにする
 ・Dollarの副作用をどうする？
 ・Moneyの丸め処理をどうする？
+
+済
 ・Dollarクラスがない
 ・Dollarクラスにコンストラクタがない
 ・Dollarクラスにtimeメソッドが無い
