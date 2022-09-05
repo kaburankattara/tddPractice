@@ -2,6 +2,7 @@
 ・amountをprivateにする
 ・Moneyの丸め処理をどうする？
 ・equals()を実装する
+・hashCode()
 
 済
 ・Dollarの副作用をどうする？
