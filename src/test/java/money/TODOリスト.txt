@@ -1,9 +1,9 @@
 ・$5 + 10 CHF = $10（レートが2:1の場合）
-・amountをprivateにする
 ・Moneyの丸め処理をどうする？
 ・hashCode()
 
 済
+・amountをprivateにする
 ・equals()を実装する
 ・Dollarの副作用をどうする？
 ・$5 * 2 = $10
