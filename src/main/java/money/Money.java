@@ -11,8 +11,8 @@ class Money {
         this.currency = currency;
     }
 
-    Money times(int multiplier) {
-        return null;
+    Money times(int multiplier){
+        return new Money(amount * multiplier, currency);
     }
 
     String currency() {
@@ -22,7 +22,7 @@ class Money {
     public boolean equals(Object object) {
         Money money = (Money) object;
         return amount == money.amount
-                && getClass().equals(money.getClass());
+                && currency().equals(money.currency());
     }
 
     public String toString(){
