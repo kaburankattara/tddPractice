@@ -25,6 +25,10 @@ class Money {
                 && getClass().equals(money.getClass());
     }
 
+    public String toString(){
+        return amount + "" + currency;
+    }
+
     static Money dollar(int amount) {
         return new Dollar(amount, "USD");
     }
