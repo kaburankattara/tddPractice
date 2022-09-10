@@ -3,7 +3,7 @@ package money;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Bank {
+class Bank {
 
     private Map<Pair, Integer> rates = new HashMap<>();
 
@@ -16,6 +16,9 @@ public class Bank {
     }
 
     int rate(String from, String to) {
+        if (from.equals(to)) {
+            return 1;
+        }
         return rates.get(new Pair(from, to));
     }
 
