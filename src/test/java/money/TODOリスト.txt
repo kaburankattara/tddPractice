@@ -1,8 +1,5 @@
 ・$5 + 10 CHF = $10（レートが2:1の場合）
-・$5 + $5 = $10
 ・$5 + $5 がMoneyを返す
-・Moneyを変換して換算を行う
-・Reduce(Bank, String)
 
 済
 ・5CHF*2=10CHF
@@ -21,9 +18,12 @@
 ・DollarとFrancの重複
 ・testFrancMultiplicationを削除する？
 ・Bank.reduce(Money)
+・$5 + $5 = $10
+・Moneyを変換して換算を行う
+・Reduce(Bank, String)
+・hashCode()
 
 保留
 ・Moneyの丸め処理をどうする？
-・hashCode()
 ・nullとの等価性比較
 ・他のオブジェクトとの等価性比較
