@@ -1,5 +1,4 @@
 ・$5 + $5 がMoneyを返す
-・Expression.times
 
 済
 ・5CHF*2=10CHF
@@ -24,6 +23,7 @@
 ・hashCode()
 ・$5 + 10 CHF = $10（レートが2:1の場合）
 ・Sum.plus
+・Expression.times
 
 保留
 ・Moneyの丸め処理をどうする？
